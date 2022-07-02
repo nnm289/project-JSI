@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="login-form">
+            <div class="header">
+                <h3>LOG IN</h3>
+            </div>
+            <!-- Hàng 2 -->
+            <div class="input-wrapper">
+                <input type="email" name="email" placeholder="Email...">
+                <div class="error" id="email-error"></div>
+            </div>
+            <!-- Hàng 3 -->
+            <div class="input-wrapper">
+                <input type="password" name="password" placeholder="Password...">
+                <div class="error" id="password-error"></div>
+            </div>
+            <div class="form-action">
+                <button class="btn" type="submit">Log in</button>
+                <a href="./register.html">Don't have an account? Register</a>
+
+            </div>
+        </form>
+        
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <script src="./controller.js"></script>
+    <script src="./app.js"></script>
+    <script src="./login.js"></script>
+</body>
+
+</html>

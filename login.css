@@ -1,0 +1,68 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style chung cho thẻ input */
+.input-wrapper input {
+    border: 1px solid #dbdbdb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.input-wrapper {
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    padding: 8px 20px;
+    background-color: #F2CD5C;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #F2CD5C;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.header {
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    font-size: 30px;
+    color: #F2CD5C;
+    padding-left: 10%;
+}
+
+.container {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://wallpaperaccess.com/full/131544.jpg);
+}
+a{color: #fff;
+text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+
+.container .input-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .input-name-wrapper .input-wrapper {
+    width: 48%;
+}
