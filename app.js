@@ -9,12 +9,12 @@ const init = () => {
 
     // Your web app's Firebase configuration
     let firebaseConfig = {
-        apiKey: "AIzaSyAX5z0vvKHMxG9Jo4kvaPKEzKBJW2het1I",
-        authDomain: "fir-test-fd2ba.firebaseapp.com",
-        projectId: "fir-test-fd2ba",
-        storageBucket: "fir-test-fd2ba.appspot.com",
-        messagingSenderId: "591099878183",
-        appId: "1:591099878183:web:54973e199ef25dcd2b6702"
+        apiKey: "AIzaSyD3F2sQ_fcrCvbrYNLNQKEeTNYN9FSLJSs",
+        authDomain: "travel-vietnam-4d10f.firebaseapp.com",
+        projectId: "travel-vietnam-4d10f",
+        storageBucket: "travel-vietnam-4d10f.appspot.com",
+        messagingSenderId: "981904217482",
+        appId: "1:981904217482:web:17e5cf7444125735706473"
     };
 
     // Initialize Firebase

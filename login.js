@@ -14,8 +14,8 @@ loginForm.addEventListener("submit", (event) => {
     const login = async (dataLogin) => {
         try {
             const response = await firebase.auth().signInWithEmailAndPassword(dataLogin.email, dataLogin.password);
-            alert("Nguoi dung dang nhap thanh cong")
-            location.href = "./trangchu.html"
+            alert("Log in successfully")
+            location.href = "./homePage.html"
         }
         catch (err) {
             console.log(err);
